@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body main .botonContact .btn:hover, header .navbar .container .nav-link:hover {
+  background-color: black;
+  color: beige;
+  font-family: "Akshar", sans-serif;
+  font-size: 18px;
+}
+
+header .navbar {
+  background-color: #d4d0c9;
+}
+header .navbar .container .navbar-brand {
+  color: #404849;
+  font-family: "Akshar", sans-serif;
+  font-size: 36px;
+}
+header .navbar .container .nav-link {
+  border-top-style: double;
+  border-bottom-style: double;
+  color: #404849;
+  background-color: #d4d0c9;
+  font-family: "Akshar", sans-serif;
+  font-size: 18px;
+}
+body {
+  background-color: #d4d0c9;
+}
+body main .titulo {
+  font-family: "Akshar", sans-serif;
+  font-size: 50px;
+  color: #404849;
+}
+body main .container {
+  background-color: #d4d0c9;
+}
+body main .texto {
+  font-family: "Akshar", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+body main .botonContact .btn {
+  color: #404849;
+  background-color: #d4d0c9;
+  font-family: "Akshar", sans-serif;
+  font-size: 20px;
+}
+footer {
+  border-top-style: double;
+  background-color: #d4d0c9;
+}
+footer .footerText {
+  font-family: "Akshar", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+main .container .contenidoAbout {
+  background-color: rgb(209, 195, 195);
+}
+main .container .contenidoAbout .texto {
+  font-family: "Akshar", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+main #tituloREsumen {
+  font-family: "Akshar", sans-serif;
+  font-size: 35px;
+}
+main .contenidoResume {
+  background-color: rgb(209, 195, 195);
+}
+main .contenidoResume h4 {
+  font-family: "Akshar", sans-serif;
+  font-size: 35px;
+}
+main .contenidoResume .texto {
+  font-family: "Akshar", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  padding: 7px 10px;
+  border: 3px solid #000000;
+  position: relative;
+}
+
+.btn::before,
+.btn::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: inherit;
+  transition: all 0.5s;
+}
+
+.btn::before {
+  top: -15px;
+  left: -15px;
+  border-width: 1px 0 0 1px;
+}
+
+.btn::after {
+  bottom: -15px;
+  right: -15px;
+  border-width: 0 1px 1px 0;
+}
+
+.btn:hover::before,
+.btn:hover::after {
+  width: calc(100% + 27px);
+  height: calc(100% + 27px);
+}
+
+/*CONTENIDO DE LA GALERIA*/
+#galeria {
+  margin: 0 !important;
+  padding: 10px;
+}
+#galeria #card {
+  width: 300px;
+  height: 500px;
+  border-radius: 3px;
+}
+#galeria .imgGaleria {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+#galeria .imgGaleria:hover {
+  border: 5px solid #f7f7f7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Akshar", sans-serif;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.contact {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4d0c9;
+}
+
+.contacto__form-wrapper {
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__imagen {
+  width: 100%;
+}
+
+.contacto__right-side {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 7.3% 0 4.7%;
+  width: 50%;
+}
+
+.contact__titulo {
+  font-family: "Akshar", sans-serif;
+  font-size: 50px;
+}
+
+.contacto__form-wrapper,
+.contact__imput-line {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact__imput-line {
+  margin-bottom: 45px;
+}
+
+.contacto__label {
+  color: #404849;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contacto__input {
+  height: 30px;
+  outline: none;
+  padding: 5px 0;
+  border-bottom: 2px solid #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  color: #404849;
+  background-color: transparent;
+}
+
+.contacto__input--textarea {
+  height: 100px;
+  outline: none;
+  padding: 5px 0;
+  border-bottom: 2px solid #121212;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  color: #121212;
+  background-color: transparent;
+  resize: none;
+}
+
+.contact__submit-button {
+  padding: 18px 55px;
+  color: #404849;
+  background-color: #d4d0c9;
+  border-radius: 50px;
+  font-family: "Akshar", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.contact__submit-button:hover {
+  background-color: #2e2e2e;
+}
+
+/*# sourceMappingURL=style.css.map */

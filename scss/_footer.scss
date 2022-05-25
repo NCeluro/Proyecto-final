@@ -1,0 +1,9 @@
+footer {
+  border-top-style: double;
+  background-color: map-get($colores, color2);
+
+  .footerText {
+    @include tituloStyle(18px);
+    color: map-get($colores, color3);
+  }
+}

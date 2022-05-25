@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+%botonHover {
+  background-color: black;
+  color: beige;
+  @include tituloStyle(18px);
+}

@@ -1,0 +1,26 @@
+body {
+  background-color: $color-header;
+  main {
+    .titulo {
+      @include tituloStyle(50px);
+      color: map-get($colores, color1);
+    }
+    .container {
+      background-color: map-get($colores, color4);
+    }
+    .texto {
+      @include tituloStyle(25px);
+      color: map-get($colores, color3);
+    }
+    .botonContact {
+      .btn {
+        color: map-get($colores, color1);
+        background-color: map-get($colores, color4);
+        @include tituloStyle(20px);
+      }
+      .btn:hover {
+        @extend %botonHover;
+      }
+    }
+  }
+}

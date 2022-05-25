@@ -1,0 +1,21 @@
+header {
+  .navbar {
+    background-color: map-get($colores, color4);
+    .container {
+      .navbar-brand {
+        color: $color-titulo;
+        @include tituloStyle(36px);
+      }
+      .nav-link {
+        border-top-style: double;
+        border-bottom-style: double;
+        color: map-get($colores, color1);
+        background-color: map-get($colores, color4);
+        @include tituloStyle(18px);
+      }
+      .nav-link:hover {
+        @extend %botonHover;
+      }
+    }
+  }
+}

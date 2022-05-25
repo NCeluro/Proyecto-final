@@ -1,0 +1,4 @@
+@mixin tituloStyle($font-size) {
+  font-family: "Akshar", sans-serif;
+  font-size: $font-size;
+}

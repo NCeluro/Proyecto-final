@@ -1,0 +1,11 @@
+main {
+  .container {
+    .contenidoAbout {
+      background-color: rgb(209, 195, 195);
+      .texto {
+        @include tituloStyle(25px);
+        color: map-get($colores, color3);
+      }
+    }
+  }
+}
